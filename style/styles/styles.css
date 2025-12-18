@@ -1,0 +1,179 @@
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+form,
+.expense-filter {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e9ecef;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* Дополнительные стили для улучшения внешнего вида */
+.expense-form,
+.expense-filter,
+.expense-list {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.expense-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.expense-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.expense-amount,
+.expense-category {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.expense-actions {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.expense-item.edit {
+  background-color: #fff3cd;
+}
+
+.edit-expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.edit-expense-form input,
+.edit-expense-form select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.save-btn {
+  background-color: #007bff;
+}
+
+.save-btn:hover {
+  background-color: #0069d9;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+.expense-filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.expense-filter label {
+  font-weight: bold;
+}
+
+.expense-filter select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input,
+form select {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form legend {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+form label {
+  margin-right: 15px;
+}
